@@ -1,0 +1,65 @@
+<html>
+    <style>
+         form {
+              background-color:whitesmoke;
+              width: 450px;
+              height: 400px;
+              border: 1px solid;
+              padding:80px 40px;
+              margin: 20px;
+              border-radius: 30px;
+            }  
+        label{
+            font-size: 18px;
+            min-width: 200px;
+        }    
+        .button1 {background-color:rgb(37, 247, 236);
+                   padding:5px 28px;
+                   border-radius:10px;
+                } 
+        .button1:hover{
+                    background-color: teal;
+                    color:white;
+        }          
+        .button2 {background-color:rgb(37, 247, 236);
+                   padding:5px 28px;
+                   border-radius:10px;
+                }    
+        .button2:hover{
+                 background-color: teal;
+                 color:white;
+        }        
+    </style>
+    <body style="background-color: lightblue;">
+        <div align="center"><img src="image/logo1.jpeg" width="50%" height="100"></div>
+        <div style="padding:100px 450px;">
+           
+            <form>
+                <div style="border-bottom: 3px solid lightskyblue; text-align:center; font-size: 20px; font-weight: bold;">New Registration</div>
+                <div style="justify-item:center;">   
+                 <label for="name" style="font-size: 18px;" style="maxwidth:30%"><br>NAME:<span style="color:red;">*</span></label>
+                 <span style="padding-inline:80px;">
+                 <input style="margin-right:50px;" type="text"  placeholder="Enter your Name" name="name" required></div></span><br>
+                <div style="justify-tem:center; maxwidth:30%">
+                 <label for="mailid" style="font-size: 18px;"><br>E-mail:<span style="color:red;">*</span></label>
+                 <span style="padding-inline:90px;">
+                 <input type="email" placeholder="Enter your mail id" name="E-mail" required></div></span><br>
+                <div style="justify-item:center;">
+                 <label for="Acc no." style="font-size: 18px;"><br>Account Number:<span style="color:red;">*</span></label>
+                 <span style="padding-inline:20px;">
+                 <input type="text"  placeholder="Enter Account No." name="Acc no." required></div></span><br> 
+                <div style="justify-item:center;"> 
+                 <label for="Password" style="font-size: 18px;"><br>New Password:<span style="color:red;">*</span></label>
+                 <span style="padding-inline:40px;">
+                 <input type="password"  placeholder="Password" name="psw" minlength="8" required></div></span><br>
+                <div style="justify-item:center;"> 
+                 <label for="Password" style="font-size: 18px;"><br>Confirm Password:<span style="color:red;">*</span></label>
+                 <span style="padding-inline:20px;">
+                 <input type="password"  placeholder="Password" name="psw" minlength="8" required></div></span><br>
+                <span style="padding-inline:80px;">
+                  <button class="button1">Submit</button></span> 
+                  <button class="button2">Reset</button>
+                </form> 
+            </div> 
+    </body>
+</html>
